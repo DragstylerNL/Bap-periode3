@@ -1,0 +1,42 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+
+}
+input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+input[type=text], select {
+    display: inline-block;
+    border: 1px solid darkblue;
+
+    box-sizing: border-box;
+}
+input:focus {
+    background-color: lightgrey;
+}
+input[type=submit] {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+form {
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 15px;
+}
+.wrapper {
+    width: 50%;
+}
+.showSpaces{
+    white-space:pre;
+}
