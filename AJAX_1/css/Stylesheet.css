@@ -1,0 +1,29 @@
+body{
+background-image: url('../loading.gif');
+}
+p{
+	border: 5px red solid;
+	color: white;
+	font-size: 20px;
+	font-family: Guardians;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+form{
+	border: 5px red solid;
+	color: white;
+	font-size: 20px;
+	font-family: Guardians;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+@font-face {
+  font-family: Guardians;
+  src: url(./Guardians.ttf);
+}
+
+
